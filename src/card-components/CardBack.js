@@ -17,7 +17,7 @@ export default class CardBack extends Component {
 		}
 		return <h4>No Rating Found</h4>;
   }
-  // your rating element should go between span -- you can invoke methods within JSX, 
+  // your rating element should go between span -- you can invoke methods within JSX, à la: this.myMethod()
   render() {
     return (
       <div className="card-back">
